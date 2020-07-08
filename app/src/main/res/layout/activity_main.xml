@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textViweNameID"
+            android:text="Name"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/editTextNameID"
+            android:inputType="text"
+            android:hint="Enter Your Name"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textViweAgeID"
+            android:text="Age"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/editTexAgetAgeID"
+            android:inputType="text"
+            android:hint="Enter Your Age"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textViweGenderID"
+            android:text="Gender"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/editTextGenderID"
+            android:inputType="text"
+            android:hint="Enter Your Gender"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textViweID"
+            android:text="ID"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/editTextID"
+            android:inputType="text"
+            android:hint="Enter Your ID"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/saveButtonId"
+        android:text="Save"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/viewButtonId"
+        android:text="View"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/updateButtonId"
+        android:text="Update"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/deleteButtonId"
+        android:text="Delete"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
